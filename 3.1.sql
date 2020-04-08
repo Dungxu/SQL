@@ -2,14 +2,14 @@
 DROP TABLE IF EXISTS Trainee;
 CREATE TABLE Trainee(
 TraineeID 		INT AUTO_INCREMENT PRIMARY KEY,
-Full_Name 		VARCHAR(50),
-Birth_Date 		DATE,
-Gender			ENUM('Male', 'Female', 'Unknown'),
+Full_Name 		VARCHAR(50)NOT NULL,
+Birth_Date 		DATE NOT NULL,
+Gender			ENUM('Male', 'Female', 'Unknown') NOT NULL,
 ET_IQ    		INT,
 ET_Gmath 		INT,
 ET_English		INT,
 Training_Class	INT,
-Evaluation_Notes TEXT
+Evaluation_Notes TEXT 
 );
 INSERT INTO Trainee (Full_Name, Birth_Date, Gender, ET_IQ, ET_Gmath, ET_English, Training_Class ) VALUES ('Dung','1999-1-5', 'Male' , 15, 15 , 30, 2 );
 INSERT INTO Trainee (Full_Name, Birth_Date, Gender, ET_IQ, ET_Gmath, ET_English, Training_Class ) VALUES ('Cuong','1999-9-26','Male', 9, 9 , 31 , 3);
