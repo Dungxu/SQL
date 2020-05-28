@@ -139,25 +139,25 @@ VALUES						  ( 'Customers Service' ),
         
 	-- Create Account Table --
  INSERT INTO 		`Account`(       Email                  ,    Username ,    Fullname            , Department_id, Position_id)
- VALUES                      ('Cuong.do@gmail.com',		'Cuong',			'Do Van Cuong',				10,				3      ),
-							 ('Lam.nguyen@gmail.com',   'Lam',				'Nguyen Xuan Lam ',			2,				2      ),     
-                             ('Dung.nguyen@gmail.com',	'Dung',   			'Nguyen Cong Dung',			10,			  	5      ),    
-                             ('Tuan.le@gmail.com',		'Tuan',				'Le Anh Tuan',				1,				1      ),     
-                             ('Dai.nguyen@gmail.com',   'Dai',				'Nguyen Duy Dai',			9,				2      ),     
-                             ('Thanh.do@gmail.com',		'Thanh',			'Do Tien Thanh',			3,				2      ),     
-                             ('Hung.nguyen@gmail.com',	'Hung',				'Nguyen Cong Hung',			9,				5      ),          
-                             ('Nhan.cung@gmail.com',    'Nhan',				'Cung Dai Nhan',			9,				1      ),     
-                             ('Tran.ly@gmail.com',		'Tran',				'Ly Tran Tran',				1,				2      ),     
-                             ('Linh.phan@gmail.com',	'Linh',				'Phan Quang Linh',			2,				4      );     
+ VALUES                 	('Cuong.do@gmail.com',	'Cuong',	'Do Van Cuong',				10,				3      ),
+				('Lam.nguyen@gmail.com',   'Lam',	'Nguyen Xuan Lam ',			2,				2      ),     
+                             	('Dung.nguyen@gmail.com','Dung',   	'Nguyen Cong Dung',			10,			  	5      ),    
+                             	('Tuan.le@gmail.com',	'Tuan',		'Le Anh Tuan',				1,				1      ),     
+                             	('Dai.nguyen@gmail.com',   'Dai',	'Nguyen Duy Dai',			9,				2      ),     
+                             	('Thanh.do@gmail.com',	'Thanh',	'Do Tien Thanh',			3,				2      ),     
+                             	('Hung.nguyen@gmail.com','Hung',	'Nguyen Cong Hung',			9,				5      ),          
+                             	('Nhan.cung@gmail.com',   'Nhan',	'Cung Dai Nhan',			9,				1      ),     
+                             	('Tran.ly@gmail.com',	'Tran',		'Ly Tran Tran',				1,				2      ),     
+                             	('Linh.phan@gmail.com',	'Linh',		'Phan Quang Linh',			2,				4      );     
                              
 
 	-- Create `Group` Table --
 INSERT INTO 		`Group`  ( Group_name   ,   Creator_id )   
-VALUES 				         ( 'Group A '   ,     	1        ),       
-							 ( 'Group B '   ,     	3        ),       
-							 ( 'Group C '   ,     	2        ),       
-							 ( 'Group D '   ,     	5        ),       
-							 ( 'Group E '   ,     	4        ),       
+VALUES 				 ( 'Group A '   ,     	1        ),       
+				( 'Group B '   ,     	3        ),       
+				( 'Group C '   ,     	2        ),       
+				( 'Group D '   ,     	5        ),       
+				( 'Group E '   ,     	4        ),       
                              ( 'Group F '   ,	  	2       ),       
                              ( 'Group G '   ,		3        ),        
                              ( 'Group H '   ,		5        ),       
